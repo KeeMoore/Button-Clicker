@@ -1,0 +1,92 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: static;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+#LoginButton {
+    background-color: blue;
+    color: white;
+    /* This changes the text color to white */
+    border: black;
+    /* Removes the default button border */
+    padding: 15px 32px;
+    /* Adds some padding */
+    text-align: center;
+    /* Centers the text */
+    text-decoration: none;
+    /* Removes the default underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* Changes the cursor when you hover over the button */
+}
+
+
+.content {
+    display: inline-block;
+    justify-content: space-between;
+
+}
+
+
+main {
+    flex: 3;
+}
+
+aside {
+    border: 1px solid black;
+    flex: 2;
+    align-self: flex-start;
+    padding: 20px;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+
+
+.ninja {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+.button {
+    background-color: yellow;
+    color: black;
+}
+
+
+
+
+.DefinitionButton {
+    background-color: green;
+    color: black;
+}
+
+.ul {
+    font-weight: lighter;
+}
